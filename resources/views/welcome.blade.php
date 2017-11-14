@@ -99,7 +99,7 @@
                     </h3>
 
                     <p class="btn-inline">
-                        <a href="#" class="btn btn-primary btn-lg">DÉMARREZ - C'EST GRATUITe</a>
+                        <a href="{{ route('register') }}" class="btn btn-primary btn-lg">DÉMARREZ - C'EST GRATUITe</a>
                     </p>
                     <div class="home-slider">
                         <div class="slider-wrapper">
@@ -297,8 +297,12 @@
 <section id="screenshot" class="contain">
     <div class="container">
         <div class="row text-center wow fadeInUp" data-wow-delay="0.4s">
-            <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-delay="0.4s">
-                <h3 class="heading"><span>Secreenshot</span> Our product screenshot</h3>
+        <div class="col-md-10 col-md-offset-1 wow fadeInUp" data-wow-delay="0.4s">
+            <p style="font-size: 20px">
+                Ortrank est une suite d'applications professionnelles et open source couvrant tous les besoins de votre société :
+                CRM, eCommerce, comptabilité, inventaire, point de vente, gestion de projets, etc.
+            </p>
+            <hr>
             </div>
         </div>
     </div>
@@ -349,7 +353,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h4 style="text-transform: none; color: #fff;">Libérez votre potentiel de croissance</h4>
                     <p>Pas de carte de crédit nécessaire - Accès direct.</p>
-                    <a href="#" class="btn btn-primary btn-lg">DÉMARREZ - C'EST GRATUITe</a>
+                    <a href="{{ route('register') }}" class="btn btn-primary btn-lg">DÉMARREZ - C'EST GRATUITe</a>
                 </div>
             </div>
         </div>
